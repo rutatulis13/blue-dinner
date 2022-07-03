@@ -1,0 +1,35 @@
+.contacts{
+    position: relative;
+    height: 100%;
+   &__text{
+       position: absolute;
+       bottom: 0;
+       right: 0;
+       margin: 30px;
+       font-size: 2rem;
+    //    width: 100%;
+    //    float: right;
+   }
+}
+
+@media screen and (max-width: 740px) {
+    .contacts{
+        height: 100%;
+        width: 100%;
+        margin-top: 100px;
+       &__text{
+           float: center;
+           right: 0;
+           left: 0;
+           display: flex;
+        //    right: auto;
+           text-align: center;
+           align-items: center;
+        //    bottom: 0;
+           justify-content: center;
+        //    margin: auto;
+      
+           font-size: 1.5rem;
+       }
+    }
+}

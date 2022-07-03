@@ -1,0 +1,26 @@
+.header{
+    text-align: center;
+    line-height: 5rem;
+    margin: 20px;
+   &__title{
+        font-size: 5rem;
+   }
+   &__text{
+    font-size: 3rem;
+}
+}
+
+@media screen and (max-width: 740px) {
+    .header{
+    background-color: rgba(22, 65, 148)
+    &__title{
+        font-size: 4rem;
+    }
+   &__text{
+    font-size: 2rem;
+    }
+    &__title{
+        font-size: 4rem;
+    }
+}
+}
