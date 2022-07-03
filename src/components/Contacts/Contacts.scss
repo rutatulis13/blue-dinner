@@ -12,14 +12,14 @@
 
 @media screen and (max-width: 740px) {
     .contacts{
-        height: 100%;
+        height: 100vh;
         width: 100%;
-        margin-top: 100px;
+        position:none;
        &__text{
+        
            float: center;
            right: 0;
            left: 0;
-           display: flex;
            text-align: center;
            align-items: center;
            justify-content: center;
