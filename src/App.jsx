@@ -9,7 +9,6 @@ function App() {
   return (
     <>
    <div className='layout'>
-     {/* <img className='img' src={foto} alt='blue dinner' /> */}
       <Header />
       <Contacts />
    </div>

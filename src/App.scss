@@ -118,14 +118,15 @@ q:after {
   content: none;
 }
 
-body{
+html{
   font-family: 'Titillium Web', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 100;
 }
 .layout{
   background-image: url('./assets/foto.jpg');
   background-position:top;
+  background-position-y: 20%;
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -142,13 +143,11 @@ body{
   .mobile{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
     width: 100vw;
     background-color:rgb(22, 65, 148);
     color: white;
     height: 100vh;
-
   }
   .img{
     width: 100vw;
@@ -156,5 +155,17 @@ body{
   }
   .layout{
     display: none;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  html{
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 340px) {
+  html{
+    font-size: 14px;
   }
 }
