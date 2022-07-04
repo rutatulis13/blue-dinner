@@ -4,7 +4,8 @@ import './FooterMobile.scss'
 const FooterMobile = () => {
     return (
         <footer className='mobfooter'>
-          <p className='mobfooter__text'>info@melynojivakariene.lt</p>
+          <p className='mobfooter__text'>Dabar kuriame svetainę.</p>
+          <p className='mobfooter__email'>info@melynojivakariene.lt</p>
         </footer>
     )
 }
