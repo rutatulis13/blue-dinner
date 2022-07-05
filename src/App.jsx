@@ -6,6 +6,12 @@ import FooterMobile from './components/FooterMobile/FooterMobile';
 import HeaderMobile from './components/HeaderMobile/HeaderMobile';
 
 function App() {
+  // window.dataLayer = window.dataLayer || [];
+
+  // function gtag(){dataLayer.push(arguments);}
+  // gtag('js', new Date());
+
+  // gtag('config', 'G-PETP417SLY');
   return (
     <>
    <div className='layout'>
